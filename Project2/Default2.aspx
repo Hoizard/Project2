@@ -55,7 +55,7 @@
                     <asp:Parameter Name="original_Discontinued" Type="Boolean"></asp:Parameter>
                 </UpdateParameters>
             </asp:SqlDataSource>
-            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="ProductID" DataSourceID="SqlDataSource1" CellPadding="4" ForeColor="#333333" GridLines="None" AllowPaging="True">
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="ProductID" DataSourceID="SqlDataSource1" CellPadding="4" ForeColor="#333333" GridLines="None" AllowPaging="True" PagerSettings-Position="TopAndBottom">
                 <AlternatingRowStyle BackColor="White"></AlternatingRowStyle>
                 <Columns>
                     <asp:CommandField ShowEditButton="True" ShowDeleteButton="True"></asp:CommandField>
